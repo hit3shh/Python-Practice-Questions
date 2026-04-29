@@ -1,0 +1,17 @@
+## finction:
+
+syntax:  
+
+def <func_name>(<arguments>):
+    # code
+
+
+# variations of functions:  there are 4 variations :-
+
+1-  No return, No arguments
+2-  No return, with arguments
+3-  With Return, No arguments
+4-  With Return, With arguments
+
+
+
