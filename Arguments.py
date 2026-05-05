@@ -74,15 +74,15 @@
 
 
 
-# #5-   Multiple Keywords arguments:    #combination of multiple and keyword agruments  # used as **kwargs    # all args in form of dictionary by default..
+# 5-   Multiple Keywords arguments:    #combination of multiple and keyword agruments  # used as **kwargs    # all args in form of dictionary by default..
 
-# def profile(**data):
-#     for i in data:
-#         print(data[i])  # gives values
+def profile(**data):
+    for i in data:
+        print(data[i])  # gives values
 
 
-#     print(data)  # prints dictionary
+    print(data)  # prints dictionary
 
-# profile(name="Hiteshh",age=21,phone=7898842270)
+profile(name="Hiteshh",age=21,phone=7898842270)
 
 
