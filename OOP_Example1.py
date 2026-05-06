@@ -137,12 +137,11 @@ class Solution :
         
         return None 
 
-if __name__ == "__main__" :         #  it is main method  # always created at last   # we dont have main function in python.. this is main indentation here.. 
-    
-    # Input
+if __name__ == "__main__" :
+              #  it is main method  # always created at last   # we dont have main function in python.. this is main indentation here.. 
     n = int(input())
     lst=[]
-    
+
     for i in range(n):
         regno = int(input())
         agencyName = input()
@@ -162,8 +161,8 @@ if __name__ == "__main__" :         #  it is main method  # always created at la
 
     max = Solution.findAgencyWithHighestPackagePrice(lst)
     agency = Solution.agencyDetailsForGivenIdAndType(lst,regno,packagetype)
-
-    print(agency.getagencyname(),':',agency.getprice())
+    print(max)
+    print(agency.getagencyName(),':',agency.getprice())
 
 
 
